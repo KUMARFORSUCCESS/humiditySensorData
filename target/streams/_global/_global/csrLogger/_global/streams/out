@@ -1,0 +1,4 @@
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.13/3.3.0/spark-network-common_2.13-3.3.0-javadoc.jar
+[debug] downloaded https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3-javadoc.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.3.0/spark-sql_2.13-3.3.0-javadoc.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.13/3.3.0/spark-catalyst_2.13-3.3.0-javadoc.jar

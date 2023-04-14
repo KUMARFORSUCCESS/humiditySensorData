@@ -1,0 +1,122 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.2 (Oracle Corporation Java 18.0.2.1)
+[debug]       Load.loadUnit: plugins took 408.8755ms
+[debug]       Load.loadUnit: defsScala took 0.605ms
+[debug] [Loading] Scanning directory C:\Users\abhishek.kumar32\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\abhishek.kumar32\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 53.8835 ms
+[debug]           Load.resolveProject(global-plugins) took 109.816ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\abhishek.kumar32\.sbt\1.0\plugins, plugins: List(<none>))) took 242.2358ms
+[debug] [Loading] Done in C:\Users\abhishek.kumar32\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 322.1451ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.5612ms
+[debug]     Load.loadUnit(file:/C:/Users/abhishek.kumar32/.sbt/1.0/plugins/, ...) took 754.1835ms
+[debug]   Load.apply: load took 1177.281ms
+[debug]   Load.apply: resolveProjects took 7.9942ms
+[debug]   Load.apply: finalTransforms took 90.679ms
+[debug]   Load.apply: config.delegates took 12.9099ms
+[debug]   Load.apply: Def.make(settings)... took 688.6399ms
+[debug]   Load.apply: structureIndex took 245.813ms
+[debug]   Load.apply: mkStreams took 2.0115ms
+[info] loading global plugins from C:\Users\abhishek.kumar32\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 4865.4345ms
+[debug]           Load.loadUnit: plugins took 44.1678ms
+[debug]           Load.loadUnit: defsScala took 0.0104ms
+[debug] [Loading] Scanning directory D:\Abhishek\SkillUp\SparkScalaCourse\humiditySensorData\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\Abhishek\SkillUp\SparkScalaCourse\humiditySensorData\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.3756 ms
+[debug]               Load.resolveProject(humiditysensordata-build) took 2.4875ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id humiditysensordata-build, base: D:\Abhishek\SkillUp\SparkScalaCourse\humiditySensorData\project, plugins: List(<none>))) took 6.7284ms
+[debug] [Loading] Done in D:\Abhishek\SkillUp\SparkScalaCourse\humiditySensorData\project, returning: (humiditysensordata-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 10.2227ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.0257ms
+[debug]         Load.loadUnit(file:/D:/Abhishek/SkillUp/SparkScalaCourse/humiditySensorData/project/, ...) took 56.0692ms
+[debug]       Load.apply: load took 58.7854ms
+[debug]       Load.apply: resolveProjects took 0.2315ms
+[debug]       Load.apply: finalTransforms took 23.3147ms
+[debug]       Load.apply: config.delegates took 1.3626ms
+[debug]       Load.apply: Def.make(settings)... took 132.847ms
+[debug]       Load.apply: structureIndex took 62.2368ms
+[debug]       Load.apply: mkStreams took 0.0031ms
+[info] loading project definition from D:\Abhishek\SkillUp\SparkScalaCourse\humiditySensorData\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 664.9143ms
+[debug]     Load.loadUnit: defsScala took 0.0107ms
+[debug] [Loading] Scanning directory D:\Abhishek\SkillUp\SparkScalaCourse\humiditySensorData
+[debug]       Load.loadUnit: mkEval took 10.0834ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.3695 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 2.6917ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: D:\Abhishek\SkillUp\SparkScalaCourse\humiditySensorData, plugins: List(<none>))) took 5.4664ms
+[debug] [Loading] Done in D:\Abhishek\SkillUp\SparkScalaCourse\humiditySensorData, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 3206.7889ms
+[debug]     Load.loadUnit: cleanEvalClasses took 41.7796ms
+[debug]   Load.loadUnit(file:/D:/Abhishek/SkillUp/SparkScalaCourse/humiditySensorData/, ...) took 3915.4362ms
+[debug] Load.apply: load took 3918.1722ms
+[debug] Load.apply: resolveProjects took 0.1762ms
+[debug] Load.apply: finalTransforms took 9.5198ms
+[debug] Load.apply: config.delegates took 0.3317ms
+[debug] Load.apply: Def.make(settings)... took 80.0789ms
+[debug] Load.apply: structureIndex took 23.9864ms
+[debug] Load.apply: mkStreams took 0.004ms
+[info] set current project to humiditySensorData (in build file:/D:/Abhishek/SkillUp/SparkScalaCourse/humiditySensorData/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-34b83a6f2b587abce1ed
+[debug] Writing bsp connection file
+[info] started sbt server
